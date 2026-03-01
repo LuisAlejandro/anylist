@@ -17,6 +17,8 @@
   "author": "Max Isom <hi@maxisom.me> (https://maxisom.me/)",
   "scripts": {
     "test": "xo",
+    "test:create-list": "node scripts/test-create-list.js",
+    "test:duplicate-list": "node scripts/test-duplicate-list.js",
     "lint-fix": "xo --fix",
     "document": "documentation build lib/index.js -f html -o docs"
   },
@@ -31,6 +33,7 @@
   },
   "devDependencies": {
     "documentation": "^12.1.4",
+    "dotenv": "^16.0.0",
     "husky": "^4.3.8",
     "xo": "^0.56.0"
   },
